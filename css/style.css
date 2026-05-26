@@ -144,6 +144,19 @@ body {
   margin-top: 0.15rem;
 }
 
+.card-url {
+  font-size: 0.75rem;
+  color: #6b6b88;
+  font-family: "SF Mono", "Fira Code", "JetBrains Mono", "Consolas", monospace;
+  word-break: break-all;
+  max-width: 100%;
+  transition: color 0.25s ease;
+}
+
+.card:hover .card-url {
+  color: var(--accent);
+}
+
 .card-desc {
   font-size: 0.85rem;
   color: var(--text-muted);

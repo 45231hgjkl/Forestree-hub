@@ -41,9 +41,15 @@ const CONFIG_PATH = 'config/links.json';
     // stagger 动画延迟
     card.style.animationDelay = `${0.35 + i * 0.1}s`;
 
+    // 去掉 http:// 或 https:// 前缀，只显示域名 + 路径
+    const displayUrl = item.url
+      .replace(/^https?:\/\//, '')
+      .replace(/\/$/, '');
+
     card.innerHTML = `
       <div class="card-icon">${item.icon || '🔗'}</div>
       <div class="card-name">${escapeHtml(item.name)}</div>
+      <div class="card-url">${escapeHtml(displayUrl)}</div>
       <div class="card-desc">${escapeHtml(item.description || '')}</div>
     `;
 
