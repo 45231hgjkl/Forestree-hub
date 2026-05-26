@@ -1,0 +1,20 @@
+[
+  {
+    "name": "GitHub",
+    "description": "代码托管与协作平台",
+    "url": "https://github.com",
+    "icon": "🔗"
+  },
+  {
+    "name": "Notion",
+    "description": "笔记与知识管理",
+    "url": "https://www.notion.so",
+    "icon": "📝"
+  },
+  {
+    "name": "Vercel",
+    "description": "前端部署与托管平台",
+    "url": "https://vercel.com",
+    "icon": "▲"
+  }
+]
