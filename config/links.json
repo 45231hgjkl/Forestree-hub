@@ -3,13 +3,13 @@
     "name": "Image2",
     "description": "GPT-image2图片生成平台",
     "url": "https://image.forestree.top",
-    "icon": "🔗"
+    "icon": "🧩"
   },
   {
     "name": "Electric",
-    "description": "笔记与知识管理",
+    "description": "电量管理中心",
     "url": "https://elc.forestree.top",
-    "icon": "📝"
+    "icon": "⚡"
   },
   {
     "name": "Vercel",
